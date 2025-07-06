@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import images from './loadImages';
 import ProductCard from './ProductCard';
-import coverImage from '../../assets/images/download.png';
+import coverImage from '../../assets/images/download.jpg';
 
 const SanitaryWares = () => {
   // Replace with your actual product data
