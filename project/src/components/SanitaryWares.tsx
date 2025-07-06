@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import images from './loadImages';
 import ProductCard from './ProductCard';
-import coverImage from '../../assets/images/download.jpg';
 
 const SanitaryWares = () => {
   // Replace with your actual product data
@@ -138,9 +137,6 @@ const SanitaryWares = () => {
   return (
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-12">
-          <img src={coverImage} alt="Sanitary Wares Cover" className="w-full h-auto object-cover rounded-lg" />
-        </div>
         <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4 text-center">
           Sanitary Wares
         </h2>

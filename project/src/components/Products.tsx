@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Bath, Wrench, Zap, ArrowRight } from 'lucide-react';
+import sanitaryWareImage from '../../assets/images/download.jpg';
 
 const Products = () => {
   const scrollToSection = (sectionId: string) => {
@@ -24,7 +25,7 @@ const Products = () => {
         "Basin & Shower Mixers",
         "Mirrors & Accessories"
       ],
-      image: "https://images.pexels.com/photos/6585751/pexels-photo-6585751.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      image: sanitaryWareImage,
       color: "bg-blue-50 border-blue-200"
     },
     {
